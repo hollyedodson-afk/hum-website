@@ -1,0 +1,325 @@
+﻿<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Privacy Policy — hum.</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Cormorant+Garamond:ital,wght@0,400;0,500;1,400&family=DM+Sans:wght@400;500&family=Fraunces:ital,opsz,wght@0,9..144,500;1,9..144,500&display=swap" rel="stylesheet" />
+  <style>
+    .site-nav {
+      position: sticky; top: 0; z-index: 50;
+      background: rgba(247,242,234,0.9);
+      backdrop-filter: blur(12px); -webkit-backdrop-filter: blur(12px);
+      border-bottom: 1px solid #EDE6D9;
+      padding: 0 24px;
+    }
+    .site-nav-row {
+      max-width: 680px; margin: 0 auto;
+      display: flex; align-items: center; justify-content: space-between;
+      padding: 14px 0;
+    }
+    .site-nav-brand {
+      font-family: 'Fraunces', Georgia, serif; font-weight: 500;
+      font-size: 22px; letter-spacing: -0.04em; color: #2E2A26;
+      text-decoration: none;
+    }
+    .site-nav-brand .dot { color: #7A9E7E; }
+    .site-nav-links { display: flex; gap: 24px; align-items: center; }
+    .site-nav-links a {
+      font-size: 13px; color: #6B5B4E; text-decoration: none;
+      font-family: 'DM Sans', sans-serif;
+    }
+    .site-nav-links a:hover { color: #2E2A26; }
+  </style>
+  <style>
+    *, *::before, *::after { box-sizing: border-box; margin: 0; padding: 0; }
+    body {
+      font-family: 'DM Sans', sans-serif;
+      background: #F7F2EA;
+      color: #2E2A26;
+      line-height: 1.7;
+      font-size: 15px;
+      padding: 0;
+    }
+    .header {
+      background: linear-gradient(140deg, #6B5242 0%, #2E2A26 100%);
+      padding: 48px 24px 36px;
+      text-align: center;
+    }
+    .logo {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: 32px;
+      color: #FDFAF5;
+      margin-bottom: 6px;
+      letter-spacing: -0.5px;
+    }
+    .logo span { color: #7A9E7E; }
+    .tagline {
+      font-family: 'Cormorant Garamond', serif;
+      font-style: italic;
+      font-size: 15px;
+      color: rgba(255,255,255,0.5);
+    }
+    .container {
+      max-width: 680px;
+      margin: 0 auto;
+      padding: 40px 24px 80px;
+    }
+    h1 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 28px;
+      font-weight: 500;
+      color: #2E2A26;
+      margin-bottom: 6px;
+    }
+    .updated {
+      font-size: 12px;
+      color: #9A8878;
+      margin-bottom: 32px;
+    }
+    .intro {
+      background: #FDFAF5;
+      border: 1px solid #EDE6D9;
+      border-radius: 16px;
+      padding: 20px 22px;
+      margin-bottom: 32px;
+      font-size: 14px;
+      color: #6B5B4E;
+      line-height: 1.65;
+    }
+    h2 {
+      font-family: 'Cormorant Garamond', serif;
+      font-size: 20px;
+      font-weight: 500;
+      color: #2E2A26;
+      margin: 36px 0 12px;
+    }
+    h2:first-of-type { margin-top: 0; }
+    p { margin-bottom: 14px; color: #3D3530; }
+    p:last-child { margin-bottom: 0; }
+    ul {
+      margin: 0 0 14px 0;
+      padding-left: 0;
+      list-style: none;
+    }
+    ul li {
+      display: flex;
+      gap: 10px;
+      align-items: flex-start;
+      margin-bottom: 8px;
+      font-size: 14px;
+      color: #3D3530;
+    }
+    ul li::before {
+      content: '●';
+      color: #7A9E7E;
+      font-size: 10px;
+      margin-top: 5px;
+      flex-shrink: 0;
+    }
+    .card {
+      background: #FDFAF5;
+      border: 1px solid #EDE6D9;
+      border-radius: 16px;
+      padding: 20px 22px;
+      margin: 16px 0;
+    }
+    .card p, .card ul li { font-size: 14px; }
+    .section-divider {
+      height: 1px;
+      background: #EDE6D9;
+      margin: 32px 0;
+    }
+    a { color: #5C7A60; text-decoration: none; }
+    a:hover { text-decoration: underline; }
+    .contact-block {
+      background: #FDFAF5;
+      border: 1px solid #D4E8D5;
+      border-radius: 16px;
+      padding: 22px;
+      margin-top: 32px;
+    }
+    .contact-block p { font-size: 14px; }
+    .contact-block .label {
+      font-size: 11px;
+      text-transform: uppercase;
+      letter-spacing: 0.08em;
+      color: #9A8878;
+      font-weight: 500;
+      margin-bottom: 4px;
+    }
+    .email { font-size: 16px; font-weight: 500; color: #5C7A60; }
+    .footer {
+      text-align: center;
+      font-size: 12px;
+      color: #9A8878;
+      margin-top: 48px;
+      padding-top: 24px;
+      border-top: 1px solid #EDE6D9;
+    }
+    .back-link {
+      display: inline-flex;
+      align-items: center;
+      gap: 6px;
+      font-size: 13px;
+      color: #6B5B4E;
+      margin-bottom: 28px;
+    }
+  </style>
+</head>
+<body>
+
+<nav class="site-nav">
+  <div class="site-nav-row">
+    <a href="/" class="site-nav-brand">hum<span class="dot">.</span></a>
+    <div class="site-nav-links">
+      <a href="/">Home</a>
+      <a href="/science">Science</a>
+      <a href="/support">Support</a>
+      <a href="https://app.withhum.app">Open app →</a>
+    </div>
+  </div>
+</nav>
+
+  <div class="header">
+    <div class="logo">hum<span>.</span></div>
+    <div class="tagline">the quiet rhythm of feeding</div>
+  </div>
+
+  <div class="container">
+    <a class="back-link" href="/">← Back to hum.</a>
+
+    <h1>Privacy Policy</h1>
+    <p class="updated">Last updated: June 2026</p>
+
+    <div class="intro">
+      hum. is built on a simple principle: your family's data belongs to you. We collect only what we need to personalise your experience, we never sell it, and you can export or delete it at any time.
+    </div>
+
+    <h2>Who we are</h2>
+    <p>
+      hum. is developed and operated by Holly Read, a sole trader based in New Zealand. We are subject to the New Zealand Privacy Act 2020. If you have any questions about this policy, contact us at <a href="mailto:hello@hum.app">hello@hum.app</a>.
+    </p>
+
+    <div class="section-divider"></div>
+
+    <h2>What we collect</h2>
+
+    <p>We collect the following categories of information when you use hum.:</p>
+
+    <div class="card">
+      <p><strong>Account information</strong></p>
+      <ul>
+        <li>Your email address and display name, used to create and manage your account.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <p><strong>Baby profile</strong></p>
+      <ul>
+        <li>Your baby's first name, date of birth, and corrected age (if premature).</li>
+        <li>Feeding approach (purées, baby-led weaning, or combination) and focus areas.</li>
+        <li>Family allergy history and dietary restrictions you choose to record.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <p><strong>Food diary and allergen records</strong></p>
+      <ul>
+        <li>Meals served each day, including recipe and portion notes.</li>
+        <li>Reaction records you log after each meal (all clear / mild / significant).</li>
+        <li>Allergen introduction progress across the top-9 allergens.</li>
+        <li>Weekly check-in responses (meals per day, foods tried, stage progression).</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <p><strong>Usage analytics</strong></p>
+      <ul>
+        <li>Anonymised usage events (screens visited, features used) collected by PostHog. No personal identifiers are attached to these events.</li>
+      </ul>
+    </div>
+
+    <div class="card">
+      <p><strong>Error reports</strong></p>
+      <ul>
+        <li>Crash and error reports collected by Sentry, including device type, OS version, and anonymised stack traces. These help us fix bugs quickly.</li>
+      </ul>
+    </div>
+
+    <div class="section-divider"></div>
+
+    <h2>How we use your information</h2>
+    <ul>
+      <li>To personalise your daily meal plan, recipe suggestions, and allergen schedule.</li>
+      <li>To track your baby's journey and milestone progression across sessions and devices.</li>
+      <li>To send transactional emails (password reset, account verification) via your auth provider.</li>
+      <li>To improve hum. — aggregated, anonymised analytics help us understand which features are useful.</li>
+      <li>To respond to support requests and data access enquiries.</li>
+    </ul>
+    <p>We do not use your information for advertising, and we never sell it to third parties.</p>
+
+    <div class="section-divider"></div>
+
+    <h2>Data storage and security</h2>
+    <p>
+      Your data is stored in Supabase (hosted on AWS in the Asia-Pacific region). All data is encrypted at rest using AES-256 and in transit using TLS 1.2+. Row-level security policies ensure that each account can only access its own records.
+    </p>
+    <p>
+      We retain your data until you delete your account, or until we close the service (in which case we will notify you with at least 30 days' notice and offer an export).
+    </p>
+
+    <div class="section-divider"></div>
+
+    <h2>Third-party services</h2>
+    <p>hum. uses the following sub-processors to operate the service:</p>
+    <ul>
+      <li><strong>Supabase</strong> — database, authentication, and file storage. <a href="https://supabase.com/privacy" target="_blank" rel="noopener">Privacy policy →</a></li>
+      <li><strong>Vercel</strong> — app hosting and edge delivery. <a href="https://vercel.com/legal/privacy-policy" target="_blank" rel="noopener">Privacy policy →</a></li>
+      <li><strong>PostHog</strong> — anonymised product analytics. <a href="https://posthog.com/privacy" target="_blank" rel="noopener">Privacy policy →</a></li>
+      <li><strong>Sentry</strong> — error monitoring. <a href="https://sentry.io/privacy/" target="_blank" rel="noopener">Privacy policy →</a></li>
+    </ul>
+    <p>None of these providers are permitted to use your data for their own marketing purposes.</p>
+
+    <div class="section-divider"></div>
+
+    <h2>Children's data</h2>
+    <p>
+      hum. is designed for use by parents and guardians. All information about babies is entered by and belongs to the account holder (the parent or guardian). We do not knowingly collect personal information directly from children. If you believe we have inadvertently collected data about a child without parental consent, please contact us immediately.
+    </p>
+
+    <div class="section-divider"></div>
+
+    <h2>Your rights</h2>
+    <p>Under the New Zealand Privacy Act 2020, you have the right to:</p>
+    <ul>
+      <li><strong>Access your data</strong> — export your full food diary, allergen records, and profile from Settings → Privacy &amp; data → Export food diary.</li>
+      <li><strong>Correct your data</strong> — update your profile and baby details at any time from within the app.</li>
+      <li><strong>Delete your data</strong> — request permanent account and data deletion from Settings → Privacy &amp; data → Delete account &amp; data. Deletion is completed within 48 hours.</li>
+      <li><strong>Contact us</strong> — if you have a privacy concern that isn't resolved within the app, email <a href="mailto:hello@hum.app">hello@hum.app</a>.</li>
+    </ul>
+
+    <div class="section-divider"></div>
+
+    <h2>Changes to this policy</h2>
+    <p>
+      We may update this policy from time to time. If we make material changes, we will notify you by email or with a notice in the app at least 14 days before the changes take effect. The "Last updated" date at the top of this page always reflects the most recent revision.
+    </p>
+
+    <div class="contact-block">
+      <p class="label">Contact</p>
+      <p class="email"><a href="mailto:hello@hum.app">hello@hum.app</a></p>
+      <p style="margin-top: 8px;">For privacy enquiries, data access requests, or corrections — we aim to respond within 5 business days.</p>
+    </div>
+
+    <div class="footer">
+      <p>hum. · New Zealand · guidance only, not medical advice.</p>
+      <p style="margin-top: 4px;"><a href="/support">Support</a> · <a href="https://app.withhum.app">Open app</a></p>
+    </div>
+  </div>
+
+</body>
+</html>
