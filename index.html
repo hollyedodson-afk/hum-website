@@ -3,13 +3,15 @@
 <head>
 <meta charset="utf-8"/>
 <meta name="viewport" content="width=device-width,initial-scale=1"/>
-<title>hum. — the quiet rhythm of feeding</title>
+<title>hum.: the quiet rhythm of feeding</title>
 <meta name="description" content="hum. is a quiet, evidence-led companion for your baby's first foods. Built around the NZ allergen protocol, paced to where your baby actually is."/>
-<meta property="og:title" content="hum. — the quiet rhythm of feeding"/>
-<meta property="og:description" content="Know exactly what to feed them today. The NZ allergen protocol, the 72-hour timer, the safety library — in one quiet app."/>
+<meta property="og:title" content="hum.: the quiet rhythm of feeding"/>
+<meta property="og:description" content="Know exactly what to feed them today. The NZ allergen protocol, the 72-hour timer, the safety library, in one quiet app."/>
 <meta property="og:url" content="https://withhum.app"/>
 <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32' fill='none'%3E%3Cpath d='M12 28A4 4 0 0 1 20 28' stroke='%236B8E72' stroke-width='2' stroke-linecap='round'/%3E%3Cpath d='M8 28A8 8 0 0 1 24 28' stroke='%236B8E72' stroke-width='2' stroke-linecap='round'/%3E%3Cpath d='M4 28A12 12 0 0 1 28 28' stroke='%236B8E72' stroke-width='2' stroke-linecap='round'/%3E%3Cpath d='M0 28A16 16 0 0 1 32 28' stroke='%236B8E72' stroke-width='2' stroke-linecap='round'/%3E%3C/svg%3E"/>
 <link rel="stylesheet" href="brand.css"/>
+<script src="/js/gsap.min.js" defer></script>
+<script src="/js/ScrollTrigger.min.js" defer></script>
 <style>
   /* ── Page-level overrides ───────────────────────────────────────── */
   html, body { height: auto; min-height: 100%; background: var(--milk); color: var(--ink); }
@@ -650,15 +652,14 @@
   <div class="wrap inner">
     <div class="top">
       <span class="eyebrow">hum. · for the first 1,000 meals</span>
-      <span class="stamp">Vol. 01 — <em>Solids, gently</em></span>
     </div>
 
     <div>
       <h1>The <em>quiet rhythm</em><br/>of feeding.</h1>
-      <p class="sub">A weekly companion for your baby's first foods. Built around the New Zealand allergen protocol, paced to <em>where your baby actually is</em> — not a calendar week, not a stage label.</p>
+      <p class="sub">A weekly companion for your baby's first foods. Built around the New Zealand allergen protocol, paced to <em>where your baby actually is</em>, not a calendar week, not a stage label.</p>
       <div class="cta">
-        <a href="mailto:hello@withhum.app?subject=hum.%20beta%20access" class="btn btn-on-grad">Request beta access <span class="arrow">→</span></a>
-        <a href="#how" class="btn btn-ghost">See how a week works</a>
+        <a href="mailto:hello@withhum.app?subject=hum.%20beta%20access" class="btn btn-on-grad">Request access <span class="arrow">→</span></a>
+        <a href="#how" class="btn btn-ghost">How it works</a>
       </div>
     </div>
 
@@ -666,7 +667,7 @@
       <small>Made in Aotearoa · New Zealand</small>
       <div class="meta-line">
         <small>NZ Ministry of Health · ASCIA NZ · Plunket well-child programme</small>
-        <small>Guidance only — not medical advice</small>
+        <small>Guidance only. Not medical advice.</small>
       </div>
     </div>
   </div>
@@ -676,15 +677,14 @@
 <section class="promise">
   <div class="wrap inner">
     <div class="col-meta">
-      <span class="eyebrow">The promise</span>
-      <div class="num" style="margin-top:18px">Library, meet <em class="serif-italic">guide.</em></div>
+      <div class="num">Library, meet <em class="serif-italic">guide.</em></div>
     </div>
     <div class="col-quote">
       <blockquote>
-        Other apps tell you what's <span>possible</span>. hum. tells you what's for breakfast — and why <em class="serif-italic">your</em> baby is ready for it.
+        Other apps tell you what's <span>possible</span>. hum. tells you what's for breakfast, and why <em class="serif-italic">your</em> baby is ready for it.
       </blockquote>
       <p style="font-size:15px;color:var(--ink-2);line-height:1.7;margin-top:32px;max-width:560px;">
-        Most apps are a library. <em class="serif-italic">hum.</em> is a guide. We built it the way a calm Plunket nurse talks to you — confident without being preachy, gentle without being saccharine. It holds the safety rails so you can pay attention to your baby instead of your spreadsheet.
+        Most apps are a library. <em class="serif-italic">hum.</em> is a guide. We built it the way a calm Plunket nurse talks to you: confident without being preachy, gentle without being saccharine. It holds the safety rails so you can pay attention to your baby instead of your spreadsheet.
       </p>
     </div>
   </div>
@@ -695,17 +695,16 @@
   <div class="wrap">
     <div class="section-head">
       <div>
-        <span class="eyebrow">How a week works</span>
-        <h2 style="margin-top:18px">Four <em>quiet steps</em>, repeated weekly.</h2>
+        <h2>Four <em>quiet steps</em>, repeated weekly.</h2>
       </div>
-      <p class="lead">No marathon onboarding. No daily streak guilt. Each week, hum. builds a small plan around where <em class="serif-italic">your</em> baby is right now — not a calendar week, not a stage label. The rest is the rhythm of feeding them.</p>
+      <p class="lead">No marathon onboarding. No daily streak guilt. Each week, hum. builds a small plan around where <em class="serif-italic">your</em> baby is right now, not a calendar week, not a stage label. The rest is the rhythm of feeding them.</p>
     </div>
 
     <div class="how-grid">
       <div class="how-step">
         <div class="step-no">Step 01</div>
         <h4>We meet <em>your baby</em>.</h4>
-        <p>A four-minute onboarding — age, readiness signs, family allergy history, what you'd like to focus on this month. We build the rest from there.</p>
+        <p>A four-minute onboarding: age, readiness signs, family allergy history, what you'd like to focus on this month. We build the rest from there.</p>
         <div class="step-art">
           <svg width="100%" height="40" viewBox="0 0 200 40" preserveAspectRatio="none">
             <path d="M0 30 Q 25 6 50 30 T 100 30 T 150 30 T 200 30" stroke="var(--accent)" stroke-width="1.5" fill="none"/>
@@ -715,7 +714,7 @@
       <div class="how-step">
         <div class="step-no">Step 02</div>
         <h4>A week is <em>laid out</em>.</h4>
-        <p>Seven days of soft, stage-appropriate meals — including the allergen slots in the safe morning window. You can swap any meal, or accept the lot.</p>
+        <p>Seven days of soft, stage-appropriate meals, including the allergen slots in the safe morning window. You can swap any meal, or accept the lot.</p>
         <div class="step-art">
           <svg width="100%" height="40" viewBox="0 0 200 40" preserveAspectRatio="none">
             <rect x="4"   y="14" width="22" height="22" rx="4" fill="var(--accent-tint)" stroke="var(--accent)" stroke-width="0.8"/>
@@ -731,7 +730,7 @@
       <div class="how-step">
         <div class="step-no">Step 03</div>
         <h4>You <em>log a feed</em>, in a tap.</h4>
-        <p>One thumb. One sentence. hum. quietly tracks the 72-hour allergen window, the food groups offered, and the slow climb toward 15–20 exposures.</p>
+        <p>One thumb. One sentence. hum. quietly tracks the 72-hour allergen window, the food groups offered, and the slow climb toward 15-20 exposures.</p>
         <div class="step-art">
           <svg width="100%" height="40" viewBox="0 0 200 40" preserveAspectRatio="none">
             <circle cx="20" cy="20" r="14" fill="none" stroke="var(--accent)" stroke-width="1"/>
@@ -746,7 +745,7 @@
       <div class="how-step">
         <div class="step-no">Step 04</div>
         <h4>The plan <em>grows</em> with them.</h4>
-        <p>Each week the plan widens — new textures, new tastes, new allergens — pacing itself to how your baby is actually responding, not to a calendar.</p>
+        <p>Each week the plan widens: new textures, new tastes, new allergens, pacing itself to how your baby is actually responding, not to a calendar.</p>
         <div class="step-art">
           <svg width="100%" height="40" viewBox="0 0 200 40" preserveAspectRatio="none">
             <defs><clipPath id="howr"><rect x="0" y="0" width="200" height="40"/></clipPath></defs>
@@ -766,17 +765,16 @@
 <section class="spread">
   <div class="wrap grid">
     <div>
-      <span class="eyebrow">A week inside hum.</span>
-      <h2 style="margin-top:20px">Stage 2 · <em>building flavours</em></h2>
-      <p>Around month seven, mash gets a little lumpier, dinner has a sauce, breakfast has a fruit. Allergens move from morning-only first tastes to <em class="serif-italic">kept in the rotation</em> — three exposures a week to maintain tolerance.</p>
+      <h2>Stage 2 · <em>building flavours</em></h2>
+      <p>Around month seven, mash gets a little lumpier, dinner has a sauce, breakfast has a fruit. Allergens move from morning-only first tastes to <em class="serif-italic">kept in the rotation</em>, three exposures a week to maintain tolerance.</p>
       <p style="font-family:var(--font-serif);font-style:italic;font-size:18px;color:var(--ink);max-width:480px;">
-        It takes 15–20 exposures before a new food is accepted. This is normal.
+        It takes 15-20 exposures before a new food is accepted. This is normal.
       </p>
       <ul>
         <li><span class="b">Mon</span><span class="t">Mashed kūmara, soft pear · <span>egg slot · morning</span></span></li>
         <li><span class="b">Tue</span><span class="t">Oat porridge with banana · <span>dairy slot · morning</span></span></li>
         <li><span class="b">Wed</span><span class="t">Lentil & carrot mash · <span>repeat egg · maintenance</span></span></li>
-        <li><span class="b">Thu</span><span class="t">Avocado on toast finger · <span>new texture — soft-pinch</span></span></li>
+        <li><span class="b">Thu</span><span class="t">Avocado on toast finger · <span>new texture, soft-pinch</span></span></li>
       </ul>
     </div>
 
@@ -793,7 +791,7 @@
               <div class="serif-italic" style="font-size:11px;color:var(--accent-dark)">2 meals/day</div>
             </div>
             <div class="title">Kūmara, oat &amp; pear mash</div>
-            <div class="sub">Slightly lumpier this week — mash less smooth. Introduce soft fork-mash texture from Tuesday.</div>
+            <div class="sub">Slightly lumpier this week; mash less smooth. Introduce soft fork-mash texture from Tuesday.</div>
           </div>
           <div class="phone-card">
             <div class="label">Mon · Lunch</div>
@@ -827,10 +825,10 @@
     </svg>
   </div>
   <div class="wrap inner">
-    <span class="eyebrow label" style="color:rgba(255,253,248,0.75)">Safety first · the part that matters</span>
+    <span class="eyebrow label" style="color:rgba(255,253,248,0.75)">Safety first</span>
     <h2>The <em>scariest part</em>, held by hum.</h2>
     <p class="lede">
-      Allergen introduction is the highest-anxiety moment in the first-foods journey. Most apps hand you a list and walk away. We turned the NZ allergen protocol — 72-hour windows, morning slots, ASCIA ordering — into a quiet timer that runs in the background of your week, with one line of warmth on every day-of-watch screen.
+      Allergen introduction is the highest-anxiety moment in the first-foods journey. Most apps hand you a list and walk away. We turned the NZ allergen protocol (72-hour windows, morning slots, ASCIA ordering) into a quiet timer that runs in the background of your week, with one line of warmth on every day-of-watch screen.
     </p>
 
     <div class="safety-grid">
@@ -847,13 +845,13 @@
       <div class="safety-col">
         <div class="big">9<small>foods</small></div>
         <div class="head">Tracked, by name</div>
-        <div class="sub">Egg, dairy, peanut, fish, shellfish, tree nut, soy, sesame, wheat — in ASCIA NZ order, with family-history allergens prioritised earlier (LEAP). Each gets its own lane, own diary.</div>
+        <div class="sub">Egg, dairy, peanut, fish, shellfish, tree nut, soy, sesame, wheat, in ASCIA NZ order, with family-history allergens prioritised earlier (LEAP). Each gets its own lane, own diary.</div>
       </div>
     </div>
 
     <div class="safety-foot">
-      <span>Gagging is normal and protective — choking is silent. hum. teaches the difference, with the St John NZ sequence always in reach from your home screen.</span>
-      <span style="font-family:var(--font-sans);font-style:normal;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;font-weight:600;color:rgba(255,253,248,0.55)">Guidance only — not medical advice</span>
+      <span>Gagging is normal and protective. Choking is silent. hum. teaches the difference, with the St John NZ sequence always in reach from your home screen.</span>
+      <span style="font-family:var(--font-sans);font-style:normal;font-size:11px;letter-spacing:0.14em;text-transform:uppercase;font-weight:600;color:rgba(255,253,248,0.55)">Guidance only. Not medical advice.</span>
     </div>
   </div>
 </section>
@@ -869,20 +867,20 @@
   <div class="wrap">
     <span class="eyebrow" style="margin-bottom:48px;display:inline-flex;">Why we built hum.</span>
     <div style="display:grid;grid-template-columns:repeat(3,1fr);gap:24px;margin-top:32px;">
-      <div style="background:var(--paper);border:1px solid var(--linen);border-radius:20px;padding:28px 24px;">
-        <p style="font-family:var(--font-serif);font-style:italic;font-size:18px;line-height:1.5;color:var(--ink);margin-bottom:18px;">"I built hum. on maternity leave, in nap windows, because I needed something calmer than my search history. Rhodes is going through his allergen journey right now — this app is for him."</p>
+      <div class="founder-card" style="background:var(--paper);border:1px solid var(--linen);border-radius:20px;padding:28px 24px;">
+        <p style="font-family:var(--font-serif);font-style:italic;font-size:18px;line-height:1.5;color:var(--ink);margin-bottom:18px;">"I built hum. on maternity leave, in nap windows, because I needed something calmer than my search history. Rhodes is going through his allergen journey right now. This app is for him."</p>
         <p style="font-size:12px;letter-spacing:0.12em;text-transform:uppercase;font-weight:600;color:var(--ink-3);">Holly · founder &amp; first parent user · Tauranga</p>
       </div>
-      <div style="background:var(--paper);border:1px solid var(--linen);border-radius:20px;padding:28px 24px;">
-        <p style="font-family:var(--font-serif);font-style:italic;font-size:18px;line-height:1.5;color:var(--ink);margin-bottom:18px;">"The part that made me most nervous building this was making sure a parent watching for a reaction knew exactly what to do. The allergen screens show what mild, moderate, and severe looks like — and Healthline 0800 611 116 is one tap away."</p>
+      <div class="founder-card" style="background:var(--paper);border:1px solid var(--linen);border-radius:20px;padding:28px 24px;">
+        <p style="font-family:var(--font-serif);font-style:italic;font-size:18px;line-height:1.5;color:var(--ink);margin-bottom:18px;">"The part that made me most nervous building this was making sure a parent watching for a reaction knew exactly what to do. The allergen screens show what mild, moderate, and severe looks like, and Healthline 0800 611 116 is one tap away."</p>
         <p style="font-size:12px;letter-spacing:0.12em;text-transform:uppercase;font-weight:600;color:var(--ink-3);">On the design of the allergen protocol</p>
       </div>
-      <div style="background:var(--paper);border:1px solid var(--linen);border-radius:20px;padding:28px 24px;">
-        <p style="font-family:var(--font-serif);font-style:italic;font-size:18px;line-height:1.5;color:var(--ink);margin-bottom:18px;">"We won't put safety behind a paywall. The allergen protocol, the 72-hour timer, the first-aid library — every tier, free, forever. That's not a feature. That's the whole point."</p>
+      <div class="founder-card" style="background:var(--paper);border:1px solid var(--linen);border-radius:20px;padding:28px 24px;">
+        <p style="font-family:var(--font-serif);font-style:italic;font-size:18px;line-height:1.5;color:var(--ink);margin-bottom:18px;">"We won't put safety behind a paywall. The allergen protocol, the 72-hour timer, the first-aid library: every tier, free, forever. That's not a feature. That's the whole point."</p>
         <p style="font-size:12px;letter-spacing:0.12em;text-transform:uppercase;font-weight:600;color:var(--ink-3);">On the pricing philosophy</p>
       </div>
     </div>
-    <p style="font-size:12px;color:var(--ink-3);text-align:center;margin-top:28px;font-style:italic;">Real user quotes coming from our closed mums group beta — launching soon.</p>
+    <p style="font-size:12px;color:var(--ink-3);text-align:center;margin-top:28px;font-style:italic;">Real user quotes coming from our closed mums group beta, launching soon.</p>
   </div>
 </section>
 
@@ -893,7 +891,7 @@
   <div class="content">
     <div class="wrap">
       <blockquote>
-        It takes 15–20 exposures before a new food is accepted.<br/>
+        It takes 15-20 exposures before a new food is accepted.<br/>
         <em>This is normal.</em>
       </blockquote>
       <cite>From the hum. Learn library · Birch &amp; Marlin, 1982; Wardle et al., 2003</cite>
@@ -906,8 +904,7 @@
   <div class="wrap">
     <div class="section-head">
       <div>
-        <span class="eyebrow">What's inside</span>
-        <h2 style="margin-top:18px">Six small things, done <em>properly</em>.</h2>
+        <h2>Six small things, done <em>properly</em>.</h2>
       </div>
       <p class="lead">We resisted shipping a hundred features. These are the six that actually move the needle in the first six months of solids.</p>
     </div>
@@ -925,7 +922,7 @@
           </svg>
         </div>
         <h4>The <em>weekly plan</em></h4>
-        <p>Seven stage-matched days, refreshed every Sunday. Skip a meal, swap a meal — hum. re-balances the food groups around you, no penalty.</p>
+        <p>Seven stage-matched days, refreshed every Sunday. Skip a meal, swap a meal, and hum. re-balances the food groups around you, no penalty.</p>
       </div>
       <div class="feature">
         <div class="ico">
@@ -953,28 +950,33 @@
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M4 19V5a1 1 0 0 1 1-1h12a3 3 0 0 1 3 3v14"/><path d="M4 19a3 3 0 0 0 3 3h13"/></svg>
         </div>
         <h4>The <em>quiet diary</em></h4>
-        <p>Not a streak. Not a leaderboard. A one-tap log that turns into a record your nurse or LMC can read — and you can read back to yourself on a hard week.</p>
+        <p>Not a streak. Not a leaderboard. A one-tap log that turns into a record your nurse or LMC can read, and you can read back to yourself on a hard week.</p>
       </div>
       <div class="feature">
         <div class="ico">
           <svg width="20" height="20" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round"><path d="M3 9h18M3 15h18M9 3v18M15 3v18"/></svg>
         </div>
         <h4>The <em>Prep Day</em></h4>
-        <p>One Sunday afternoon, one batch-cook plan, one week's worth of meals stacked in the fridge — allergen-introduction meals are always freshly prepared, never batch-cooked. Flourish-only, born from "how do other parents actually do this on a Tuesday?"</p>
+        <p>One Sunday afternoon, one batch-cook plan, one week's worth of meals stacked in the fridge. Allergen-introduction meals are always freshly prepared, never batch-cooked. Flourish-only, born from "how do other parents actually do this on a Tuesday?"</p>
       </div>
     </div>
 
     <div style="margin-top:72px;padding-top:56px;border-top:1px solid var(--linen);text-align:center;">
-      <span class="eyebrow" style="margin-bottom:32px;display:inline-block;">See it in action</span>
-      <div style="display:flex;justify-content:center;align-items:flex-end;gap:20px;flex-wrap:wrap;">
-        <div style="flex:0 0 auto;background:#111;border-radius:36px;padding:8px;box-shadow:0 16px 48px rgba(42,38,34,0.18),0 0 0 1px rgba(255,255,255,0.05);">
-          <img src="images/screenshot-welcome.png" alt="hum. welcome screen" style="width:168px;border-radius:28px;display:block;">
+      <div style="display:flex;justify-content:center;align-items:flex-end;gap:24px;flex-wrap:wrap;">
+        <div style="flex:0 0 auto;background:#111;border-radius:44px;padding:10px 10px 14px;box-shadow:0 20px 56px rgba(42,38,34,0.20),0 0 0 1px rgba(255,255,255,0.06);">
+          <div style="width:34px;height:10px;background:#000;border-radius:5px;margin:6px auto 8px;"></div>
+          <img src="images/screenshot-welcome.png" alt="hum. welcome screen" style="width:220px;border-radius:8px;display:block;">
+          <div style="width:64px;height:4px;background:rgba(255,255,255,0.25);border-radius:2px;margin:12px auto 2px;"></div>
         </div>
-        <div style="flex:0 0 auto;background:#111;border-radius:40px;padding:9px;box-shadow:0 24px 64px rgba(42,38,34,0.24),0 0 0 1px rgba(255,255,255,0.05);">
-          <img src="images/screenshot-home.png" alt="hum. daily plan screen" style="width:196px;border-radius:32px;display:block;">
+        <div style="flex:0 0 auto;background:#111;border-radius:50px;padding:12px 12px 16px;box-shadow:0 32px 80px rgba(42,38,34,0.26),0 0 0 1px rgba(255,255,255,0.06);">
+          <div style="width:40px;height:12px;background:#000;border-radius:6px;margin:6px auto 10px;"></div>
+          <img src="images/screenshothome.png" alt="hum. daily plan screen" style="width:260px;border-radius:8px;display:block;">
+          <div style="width:76px;height:4px;background:rgba(255,255,255,0.25);border-radius:2px;margin:14px auto 2px;"></div>
         </div>
-        <div style="flex:0 0 auto;background:#111;border-radius:36px;padding:8px;box-shadow:0 16px 48px rgba(42,38,34,0.18),0 0 0 1px rgba(255,255,255,0.05);">
-          <img src="images/screenshot-allergen.png" alt="hum. allergen tracker" style="width:168px;border-radius:28px;display:block;">
+        <div style="flex:0 0 auto;background:#111;border-radius:44px;padding:10px 10px 14px;box-shadow:0 20px 56px rgba(42,38,34,0.20),0 0 0 1px rgba(255,255,255,0.06);">
+          <div style="width:34px;height:10px;background:#000;border-radius:5px;margin:6px auto 8px;"></div>
+          <img src="images/screenshotallergen.png" alt="hum. allergen tracker" style="width:220px;border-radius:8px;display:block;">
+          <div style="width:64px;height:4px;background:rgba(255,255,255,0.25);border-radius:2px;margin:12px auto 2px;"></div>
         </div>
       </div>
       <p style="margin-top:32px;font-size:13px;color:var(--ink-3);font-style:italic;">Free to start on iOS and Android.</p>
@@ -987,7 +989,7 @@
   <div class="wrap">
     <div class="head">
       <div class="l">Grounded in.</div>
-      <div class="r">hum.'s protocol is built from the ASCIA NZ allergen guidelines, the LEAP and LEAP-On trials (NEJM 2015 — 80% reduction in peanut allergy with early introduction), and aligned with Plunket's well-child framework. We cite our work, in plain English, inside every Learn article.</div>
+      <div class="r">hum.'s protocol is built from the ASCIA NZ allergen guidelines, the LEAP and LEAP-On trials (NEJM 2015, showing 80% reduction in peanut allergy with early introduction), and aligned with Plunket's well-child framework. We cite our work, in plain English, inside every Learn article.</div>
     </div>
     <div class="evidence-row">
       <div class="auth">ASCIA NZ<small>Allergen introduction order</small></div>
@@ -1007,20 +1009,19 @@
   <div class="wrap">
     <div class="section-head">
       <div>
-        <span class="eyebrow">Pricing · NZ dollars · cancel anytime</span>
-        <h2 style="margin-top:18px">Two tiers. <em>One promise:</em> the safety stuff is free.</h2>
+        <h2>Two tiers. <em>One promise:</em> the safety stuff is free.</h2>
       </div>
-      <p class="lead">The allergen protocol, the 72-hour timer, the safety library — every tier, free, forever. We won't put safety behind a paywall. The paid tier adds the weekly plan, the recipes, and Prep Day.</p>
+      <p class="lead">The allergen protocol, the 72-hour timer, the safety library: every tier, free, forever. We won't put safety behind a paywall. The paid tier adds the weekly plan, the recipes, and Prep Day.</p>
     </div>
 
     <div class="price-grid" style="grid-template-columns: 1.1fr 1.1fr 0.9fr;">
       <div class="tier" style="opacity:0.6;">
         <div class="name">Seedling 🌱</div>
         <div class="price">Free<small>forever</small></div>
-        <div class="desc">A focused free tier is coming — the safety library and allergen protocol will always be free. We're defining exactly what sits in Seedling before we launch it.</div>
+        <div class="desc">A focused free tier is coming. The safety library and allergen protocol will always be free. We're defining exactly what sits in Seedling before we launch it.</div>
         <ul>
           <li>The full allergen protocol &amp; 72h timer</li>
-          <li>Safety library — choking, gagging, St John NZ</li>
+          <li>Safety library: choking, gagging, St John NZ</li>
           <li>One-tap feed diary</li>
         </ul>
         <div class="cta"><span style="font-size:12px;color:var(--ink-3);letter-spacing:0.06em;text-transform:uppercase;font-weight:600;">Coming soon</span></div>
@@ -1029,14 +1030,14 @@
       <div class="tier pop" style="--accent: var(--honey); --accent-dark: var(--honey-dark);">
         <div class="name">Flourish 🌿</div>
         <div class="price">From $12.99<small>/ month, NZD</small></div>
-        <div class="desc">The full hum. experience. During our closed beta, all users have full Flourish access — no card required.</div>
+        <div class="desc">The full hum. experience. During our closed beta, all users have full Flourish access, no card required.</div>
         <ul>
           <li>The full allergen protocol &amp; 72h timer</li>
           <li>The weekly plan, auto-rebalanced</li>
-          <li>Unlimited recipe library across stages 1–4</li>
-          <li>Prep Day — weekly batch-cook session</li>
+          <li>Unlimited recipe library across stages 1-4</li>
+          <li>Prep Day, weekly batch-cook session</li>
           <li>Shopping list grouped by aisle (Countdown · Pak'nSave)</li>
-          <li>Safety library — choking, gagging, St John NZ</li>
+          <li>Safety library: choking, gagging, St John NZ</li>
         </ul>
         <div class="cta">
           <a href="mailto:hello@withhum.app?subject=hum.%20beta%20access" class="btn btn-dark">Request access <span class="arrow">→</span></a>
@@ -1047,9 +1048,9 @@
       <div class="tier" style="background: var(--milk); border-style: dashed;">
         <span style="font-size:10px;font-weight:600;text-transform:uppercase;letter-spacing:0.14em;color:var(--ink-3);">On the horizon</span>
         <div class="name" style="font-size:20px;">What we're <em class="serif-italic">researching</em></div>
-        <div class="desc" style="margin-top:4px;">We hear you. These are the things we're testing with the panel, in priority order — not promises, signals.</div>
+        <div class="desc" style="margin-top:4px;">We hear you. These are the things we're testing with the panel, in priority order, not promises, signals.</div>
         <ul>
-          <li>Ask-a-dietitian — async NZ paediatric line</li>
+          <li>Ask-a-dietitian, async NZ paediatric line</li>
           <li>Family-history allergen pacing presets</li>
           <li>Plunket-readable visit summaries</li>
           <li>iOS &amp; Android native apps</li>
@@ -1059,7 +1060,7 @@
       </div>
     </div>
     <p style="font-size:12px;color:var(--ink-3);text-align:center;margin-top:32px;letter-spacing:0.04em;">
-      All prices in NZD. Seedling is permanently free. Flourish billing opens with the launch — cancel from inside the app, no friction.
+      All prices in NZD. Seedling is permanently free. Flourish billing opens with the launch. Cancel from inside the app, no friction.
     </p>
   </div>
 </section>
@@ -1068,27 +1069,26 @@
 <section class="faq" id="faq">
   <div class="wrap faq-grid">
     <div>
-      <span class="eyebrow">Questions</span>
-      <h2 style="margin-top:18px"><em>Honest</em><br/>answers.</h2>
-      <p class="lead">The ones we get the most. If yours isn't here — <a href="/support" style="color:var(--accent-dark);">write to us</a>. We read every message and reply within a day.</p>
+      <h2><em>Honest</em><br/>answers.</h2>
+      <p class="lead">The ones we get the most. If yours isn't here, <a href="/support" style="color:var(--accent-dark);">write to us</a>. We read every message and reply within a day.</p>
     </div>
     <div class="faq-list">
       <details class="faq-item" open>
         <summary>Is hum. <em>medical advice</em>?<span class="pm"></span></summary>
         <div class="body">
-          No. hum. is a guide, not a substitute for your GP or paediatrician. The protocol follows ASCIA NZ and the LEAP trial — but every baby is different. For eczema, a strong family history of allergies, or anything that feels off, we tell you to call your LMC, Plunket nurse, or GP. The app says this, often, on purpose.
+          No. hum. is a guide, not a substitute for your GP or paediatrician. The protocol follows ASCIA NZ and the LEAP trial, but every baby is different. For eczema, a strong family history of allergies, or anything that feels off, we tell you to call your LMC, Plunket nurse, or GP. The app says this, often, on purpose.
         </div>
       </details>
       <details class="faq-item">
         <summary>What if my baby <em>reacts</em> to a food?<span class="pm"></span></summary>
         <div class="body">
-          hum. has an in-app reaction log, pauses the introduction of that allergen, and walks you through what mild, moderate, and severe reactions look like — with clear guidance on when to monitor at home, when to call your GP, and when to call 111. Healthline 0800 611 116 is surfaced at every allergen step.
+          hum. has an in-app reaction log, pauses the introduction of that allergen, and walks you through what mild, moderate, and severe reactions look like, with clear guidance on when to monitor at home, when to call your GP, and when to call 111. Healthline 0800 611 116 is surfaced at every allergen step.
         </div>
       </details>
       <details class="faq-item">
         <summary>Can I use hum. if I'm doing <em>baby-led weaning</em>?<span class="pm"></span></summary>
         <div class="body">
-          Yes. The plan and recipes have a BLW lane — soft finger-foods, safe-pinch textures, gagging-vs-choking guidance in every recipe. You can switch lanes at any time without losing your data.
+          Yes. The plan and recipes have a BLW lane: soft finger-foods, safe-pinch textures, gagging-vs-choking guidance in every recipe. You can switch lanes at any time without losing your data.
         </div>
       </details>
       <details class="faq-item">
@@ -1134,13 +1134,13 @@
     <h2 style="margin-top:22px">Begin your<br/>baby's <em>journey</em>.</h2>
     <p>Four minutes to set up. <em class="serif-italic">Built around the name you're already using under your breath.</em> The first week is on us. The safety library is yours to keep, whatever you decide after.</p>
     <div class="cta">
-      <a href="mailto:hello@withhum.app?subject=hum.%20beta%20access" class="btn btn-light">Request beta access <span class="arrow">→</span></a>
-      <a href="#how" class="btn btn-ghost" style="color:var(--paper);border-color:rgba(255,253,248,0.4);">Read how a week works</a>
+      <a href="mailto:hello@withhum.app?subject=hum.%20beta%20access" class="btn btn-light">Request access <span class="arrow">→</span></a>
+      <a href="#how" class="btn btn-ghost" style="color:var(--paper);border-color:rgba(255,253,248,0.4);">How it works</a>
     </div>
     <div class="stores">
-      <span class="store-pill"><span class="dot"></span>iOS — coming soon</span>
-      <span class="store-pill"><span class="dot"></span>Android — coming soon</span>
-      <span class="store-pill"><span class="dot" style="background:var(--honey);"></span>Web — closed beta</span>
+      <span class="store-pill"><span class="dot"></span>iOS, coming soon</span>
+      <span class="store-pill"><span class="dot"></span>Android, coming soon</span>
+      <span class="store-pill"><span class="dot" style="background:var(--honey);"></span>Web, closed beta</span>
     </div>
   </div>
 </section>
@@ -1151,7 +1151,7 @@
     <div class="top">
       <div class="col-brand">
         <span class="wm">hum<span class="dot">.</span></span>
-        <p>The quiet rhythm of feeding — built in Aotearoa for new parents, paced to the first 1,000 meals.</p>
+        <p>The quiet rhythm of feeding, built in Aotearoa for new parents, paced to the first 1,000 meals.</p>
       </div>
       <div class="col">
         <h5>Product</h5>
@@ -1183,7 +1183,7 @@
     <div class="bot">
       <span>© 2026 hum. · Tauranga, Aotearoa</span>
       <span>
-        Guidance only — not medical advice. For emergencies dial 111.
+        Guidance only. Not medical advice. For emergencies dial 111.
         &nbsp;·&nbsp; <a href="/privacy" style="color:inherit;">Privacy</a>
         &nbsp;·&nbsp; <a href="/support" style="color:inherit;">Support</a>
       </span>
@@ -1197,6 +1197,59 @@
     const update = () => nav.classList.toggle('scrolled', window.scrollY > 4);
     update(); window.addEventListener('scroll', update, { passive: true });
   })();
+</script>
+<script>
+  window.addEventListener('DOMContentLoaded', function () {
+    if (typeof gsap === 'undefined' || typeof ScrollTrigger === 'undefined') return;
+    if (window.matchMedia('(prefers-reduced-motion: reduce)').matches) return;
+
+    gsap.registerPlugin(ScrollTrigger);
+
+    function revealGroup(selector, staggerDelay) {
+      var els = gsap.utils.toArray(selector);
+      if (!els.length) return;
+      els.forEach(function (el, i) {
+        gsap.from(el, {
+          opacity: 0,
+          y: 22,
+          duration: 0.65,
+          delay: staggerDelay ? i * 0.09 : 0,
+          ease: 'power2.out',
+          scrollTrigger: {
+            trigger: el,
+            start: 'top 88%',
+            once: true,
+          },
+        });
+      });
+    }
+
+    // Section headings
+    revealGroup('.promise blockquote', false);
+    revealGroup('.section-head h2, .section-head .lead', false);
+    revealGroup('.spread h2', false);
+
+    // Step cards: stagger across the row
+    revealGroup('.how-step', true);
+
+    // Safety stats
+    revealGroup('.safety-col', true);
+
+    // Founder quotes
+    revealGroup('.founder-card', true);
+
+    // Feature cards
+    revealGroup('.feature', true);
+
+    // Evidence authors
+    revealGroup('.auth', true);
+
+    // Pricing tiers
+    revealGroup('.tier', true);
+
+    // Final CTA block
+    revealGroup('.final .inner', false);
+  });
 </script>
 </body>
 </html>
